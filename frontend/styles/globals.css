@@ -1,0 +1,138 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+
+a:hover {
+  color: #08649a;
+}
+
+.divFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginMain {
+  max-width: 1000px;
+  /* width: 100%; */
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid red;
+}
+
+.divWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px
+}
+
+.divFlex label {
+  padding: 5px;
+
+}
+
+.divWrap input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 85%;
+  outline: none;
+}
+
+.divFlex img {
+  width: 100%;
+  height: 100%;
+}
+
+.leftBox {
+  width: 50%;
+  margin-right: 5%;
+  height: 500px;
+}
+
+.rightBox {
+  width: 45%;
+}
+
+.user {
+  width: 100%
+}
+
+.user img {
+  width: 50%;
+}
+
+input.btn {
+  border-bottom: none;
+  /* border: 0; */
+  background: #ccc;
+  border-radius: 10px;
+  padding: 12px !important;
+  font-family: bold;
+  font-size: 20px;
+}
+
+.remchk {
+  justify-content: left;
+}
+
+input.remem {
+  width: auto;
+  margin: 0 10px 0 27px;
+}
+
+.remchk span {
+  padding: 0 0 0 10px;
+  border-left: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.divFlex.topNav {
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #f5b89c;
+  margin-bottom: 25px;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.strip-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  /* display: flex; */
+  justify-content: space-between;
+  width: 100%;
+}
+.contact-icon span {
+  margin: 0 10px;
+}
